@@ -1,0 +1,134 @@
+/* التنسيقات الخاصة بصفحة تسجيل الدخول */
+#login {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* تنسيق الحاوية الرئيسية للصفحة */
+#login .login-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* تنسيق العنوان */
+#login .login-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+/* تنسيق الحقول (input) */
+#login .input-group {
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+#login .input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 14px;
+}
+
+#login .input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* تنسيق زر تسجيل الدخول */
+#login button {
+  width: 100%;
+  padding: 12px;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* تأثير عند التمرير على الزر */
+#login button:hover {
+  background-color: #333;
+}
+
+/* تنسيق الأزرار الاجتماعية */
+#login .social-login {
+  margin-top: 20px;
+}
+
+#login .social-login p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#login .social-btn {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: opacity 0.3s ease;
+}
+
+#login .social-btn i {
+  margin-right: 10px;
+}
+
+#login .social-btn.facebook {
+  background-color: #1877f2; /* لون Facebook */
+}
+
+#login .social-btn.google {
+  background-color: #db4437; /* لون Google */
+}
+
+/* تأثير عند التمرير على الأزرار الاجتماعية */
+#login .social-btn:hover {
+  opacity: 0.9;
+}
+
+/* رابط التسجيل */
+#login .signup-link {
+  margin-top: 15px;
+  color: #555;
+  font-size: 14px;
+}
+
+#login .signup-link a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#login .signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* إضافة تنسيق للجهاز المحمول */
+@media (max-width: 768px) {
+  #login .login-container {
+    width: 80%;
+  }
+}
